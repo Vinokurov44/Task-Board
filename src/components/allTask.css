@@ -1,0 +1,9 @@
+#div3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  
+    border-top: 6.6cm solid beige;
+    transform: skewX(50deg);
+    
+  }

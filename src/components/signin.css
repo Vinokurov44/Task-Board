@@ -1,0 +1,36 @@
+
+
+.form__label {
+  font-family: Courier;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  display: block;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+  color: tan;
+ 
+}
+
+.form__input {
+  font-family: Courier;
+  color: #333;
+  font-size: 1rem;
+	margin: 0 auto;
+  height: 1cm;
+  margin-top: 0.3cm;
+  border-radius: 0.2rem;
+  background-color: rgb(251, 251, 244);
+  width: 20%;
+  display: block;
+  border-color:tan ;
+  
+ 
+ 
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  -webkit-transform: translateY(-4rem);
+  transform: translateY(-4rem);
+ 
+}
